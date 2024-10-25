@@ -1,0 +1,66 @@
+/* .container{
+    height: 600px;
+    width: 800px;
+    background-image: url(https://img.freepik.com/free-photo/closeup-shot-of-the-small-green-leaves-of-a-bush_181624-30311.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 5px dotted yellow;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.card{
+    width: 200px;
+    height: 150px;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+.card-1{
+    background-color: skyblue;
+}
+
+.card-2{
+        background-color: greenyellow;
+}
+.card-3{
+    background-color: orange;
+}
+.card-4{
+    background-color: orangered;
+}
+img,
+.big-num,
+.body,
+.num {
+    display: inline-block;
+}
+
+.title{
+    display: block;
+}
+
+img{
+    margin: 10px 95px 10px 0px;
+}
+
+.big-num{
+    font-size: 23px;
+}
+
+.num{
+    margin-left: 15px;
+}
+
+.big-num,
+.body,
+.num,
+.title{
+    color: white;
+}
